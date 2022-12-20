@@ -12,7 +12,6 @@ namespace EsDnevnik
 {
     public partial class Main : Form
     {
-        bool status = false;
         public Main()
         {
             InitializeComponent();
@@ -20,21 +19,14 @@ namespace EsDnevnik
 
         private void osobaToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            if (!status) {
                 Osoba nova = new Osoba();
                 nova.Show();
-                status = true;
-            }
         }
 
         private void raspodelaToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            if (!status)
-            {
                 Raspodela nova = new Raspodela();
                 nova.Show();
-                status = true;
-            }
         }
     }
 }
