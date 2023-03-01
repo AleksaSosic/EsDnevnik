@@ -53,6 +53,12 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Ocena.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ocena.Designer.cs">
+      <DependentUpon>Ocena.cs</DependentUpon>
+    </Compile>
     <Compile Include="Osoba.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -69,6 +75,9 @@
     </Compile>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ocena.resx">
+      <DependentUpon>Ocena.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Osoba.resx">
       <DependentUpon>Osoba.cs</DependentUpon>

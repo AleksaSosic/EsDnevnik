@@ -28,5 +28,11 @@ namespace EsDnevnik
                 Raspodela nova = new Raspodela();
                 nova.Show();
         }
+
+        private void ocenaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+                Ocena nova = new Ocena();
+                nova.Show();
+        }
     }
 }
